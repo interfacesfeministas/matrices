@@ -1,0 +1,104 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  background-color: #000000;
+  background-size: cover;
+  overflow: hidden;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.container-fullheight {
+  height: 100vh;
+  position: absolute;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.habitacion {
+  width: 100%;
+  position: absolute;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Dela Gothic One', serif;
+  font-size: 90%;
+  color: rgba(210,0,0,1);
+}
+
+.carousel-item {
+  height: auto;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 70px;
+  width: auto;
+  outline: none;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 20px;
+}
+
+.carousel-control-prev-icon:after{
+  content: '<';
+  font-size: 20px;
+}
+
+h5 {
+  font-family: 'Dela Gothic One', serif;
+  font-weight: 300;
+  color: white;
+  padding-top: 5%;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 2%;
+}
